@@ -300,7 +300,11 @@ img {
   width: 370px;
   height: 404px;
   background-color: var(--color-white);
-  border: 1px solid var(--background-color);
+}
+.border {
+  border-left: 1px solid var(--background-color);
+  border-bottom: 1px solid var(--background-color);
+  border-right: 1px solid var(--background-color);
 }
 .portfolio-cards-name {
   margin-top: 20px;
