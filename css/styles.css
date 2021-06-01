@@ -61,8 +61,8 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   display: inline-block;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-blue {
@@ -79,9 +79,9 @@ img {
 
 .nav-list.list {
   display: flex;
-  margin-left: 93px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-list .nav-item:not(:last-child) {
@@ -91,8 +91,8 @@ img {
 .nav-mail-list.list {
   display: flex;
   margin-left: auto;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-mail-list .nav-item:not(:last-child) {
@@ -223,7 +223,6 @@ img {
 }
 .team-item {
   width: 270px;
-  height: 368px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -231,8 +230,8 @@ img {
 }
 
 .team-member {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .team-member,
 .team-rank {
@@ -245,6 +244,7 @@ img {
 .team-rank {
   font-weight: 400;
   color: var(--second-color-font);
+  padding-bottom: 30px;
 }
 
 /* "portfolio.html" styles body */
@@ -298,7 +298,6 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-  height: 404px;
   background-color: var(--color-white);
 }
 .border {
@@ -307,25 +306,26 @@ img {
   border-right: 1px solid var(--background-color);
 }
 .portfolio-cards-name {
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-cards-type {
-  margin-top: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-top: 4px;
+  padding-bottom: 20px;
   color: var(--second-color-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 2.25;
   letter-spacing: 0.03em;
 }
-
+.portfolio-cards-name,
+.portfolio-cards-type {
+  padding-left: 24px;
+  padding-right: 24px;
+}
 /* footer */
 /* .footer .logo {
   display: block;
@@ -346,8 +346,8 @@ img {
 }
 
 .address {
-  margin-top: 20px;
-  margin-bottom: 9px;
+  padding-top: 20px;
+  padding-bottom: 9px;
   font-style: normal;
 }
 
