@@ -230,8 +230,7 @@ img {
 }
 
 .team-member {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .team-member,
 .team-rank {
@@ -244,6 +243,9 @@ img {
 .team-rank {
   font-weight: 400;
   color: var(--second-color-font);
+}
+.card-desc {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -305,31 +307,25 @@ img {
   border-bottom: 1px solid var(--background-color);
   border-right: 1px solid var(--background-color);
 }
+.portfolio-cards-item .card-desc {
+  padding: 20px 24px;
+}
 .portfolio-cards-name {
-  padding-top: 20px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-cards-type {
-  padding-top: 4px;
-  padding-bottom: 20px;
   color: var(--second-color-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 2.25;
   letter-spacing: 0.03em;
 }
-.portfolio-cards-name,
-.portfolio-cards-type {
-  padding-left: 24px;
-  padding-right: 24px;
-}
+
 /* footer */
-/* .footer .logo {
-  display: block;
-} */
 
 .footer {
   background-color: var(--main-background-color);
@@ -338,16 +334,17 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-}
-
-.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer .logo {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
 
 .address {
-  padding-top: 20px;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
   font-style: normal;
 }
 
